@@ -31,7 +31,7 @@ button { font: inherit; }
 .eyebrow i { display:inline-block; width:24px; height:1px; margin:0 9px 3px; background:#cf4128; box-shadow:0 0 9px #b72d19; }
 .hero h1 { margin:24px 0 20px;font-size:clamp(4.6rem,8.6vw,9.6rem);line-height:.77;letter-spacing:-.075em;font-weight:650; }
 .hero h1 span { display:block; overflow:hidden; width:max-content; }
-.hero h1 .outline { color:transparent; -webkit-text-stroke:1px #6e7277; }
+.hero h1 .glass-outline { color:rgba(230,233,236,.035);-webkit-text-fill-color:rgba(230,233,236,.035);-webkit-text-stroke:1.35px rgba(204,208,213,.66);paint-order:stroke fill;filter:drop-shadow(0 0 1px rgba(255,255,255,.2)) drop-shadow(0 12px 28px rgba(0,0,0,.3)); }
 .hero-summary { display:grid; grid-template-columns:1fr .8fr; gap:clamp(18px,3vw,44px); max-width:680px; align-items:start; }
 .hero-summary p { margin:0; font-size:clamp(18px,1.45vw,23px); line-height:1.38; letter-spacing:-.02em; }
 .hero-summary strong { color:#f26a4d; font-weight:500; }
