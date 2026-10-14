@@ -1,0 +1,11 @@
+KAMRUL HASAN FAYSAL
+Software Engineering Final-Year Student
+Dhaka, Bangladesh
+
+PROFILE
+Software engineering student interested in full-stack development, frontend engineering, and creative digital design.
+
+PORTFOLIO
+GitHub: https://github.com/khfaysal
+
+This text résumé is a temporary placeholder. Replace this file with the final PDF and update data/profile.ts.

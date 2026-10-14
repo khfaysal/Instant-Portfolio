@@ -1,0 +1,8 @@
+export type Project = { title: string; description: string; year: string; technologies: string[]; category: string; githubUrl: string; visual: "wall" | "elixir" | "exo" | "portfolio"; featured: boolean };
+
+export const projects: Project[] = [
+  { title: "Fourth Wall", description: "A software project from Faysal’s public GitHub collection. Presented as an evolving build; the repository remains the source of truth for implementation details.", year: "2025", technologies: ["Web", "JavaScript", "Product UI"], category: "Interactive product", githubUrl: "https://github.com/khfaysal/Fourth-Wall", visual: "wall", featured: true },
+  { title: "OneElixir", description: "An experimental programming project exploring product-minded software construction with a concise, focused interface.", year: "2025", technologies: ["Elixir", "Web", "Experiment"], category: "Engineering experiment", githubUrl: "https://github.com/khfaysal/OneElixir", visual: "elixir", featured: true },
+  { title: "ExoAI", description: "An AI-oriented repository exploring intelligent software ideas. Details are intentionally kept neutral until the project documentation is expanded.", year: "2025", technologies: ["AI", "Software", "Prototype"], category: "Applied AI", githubUrl: "https://github.com/khfaysal/ExoAI", visual: "exo", featured: true },
+  { title: "First Portfolio", description: "An earlier portfolio build documenting the progression from learning the web to shaping a distinct engineering and design practice.", year: "2024", technologies: ["HTML", "CSS", "JavaScript"], category: "Web experience", githubUrl: "https://github.com/khfaysal/firstPortfolio", visual: "portfolio", featured: true },
+];
